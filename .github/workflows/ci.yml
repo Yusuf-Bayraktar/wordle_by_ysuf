@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodu indir
+        uses: actions/checkout@v4
+
+      - name: uv kur
+        uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.12"
+
+      - name: tkinter için sistem paketini kur
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-tk
+
+      - name: Bağımlılıkları kur
+        run: uv sync --all-groups
+
+      - name: Lint (ruff)
+        run: uv run ruff check .
+
+      - name: Testleri çalıştır (Xvfb ile, sanal ekran)
+        uses: coactions/setup-xvfb@v1
+        with:
+          run: uv run pytest -q
