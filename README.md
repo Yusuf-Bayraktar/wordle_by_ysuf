@@ -1,5 +1,7 @@
 # 🟩 Wordle Türkçe
 
+![CI](https://github.com/Yusuf-Bayraktar/wordle_by_ysuf/actions/workflows/ci.yml/badge.svg)
+
 Popüler kelime bulma oyunu Wordle'ın zengin Türkçe sözlük altyapısı ve modern masaüstü arayüzüyle yeniden geliştirilmiş versiyonu.
 
 ---
