@@ -47,7 +47,7 @@ Wordle Türkçe; oyuncuların kelime dağarcığını test ederken eğlenceli ve
 
 1. **Depoyu Klonlayın:**
    ```bash
-   git clone https://github.com/kullaniciadi/wordle.git
+   git clone https://github.com/Yusuf-Bayraktar/wordle_by_ysuf.git
    cd wordle
    ```
 

@@ -16,7 +16,7 @@ dev = [
 ]
 
 [project.scripts]
-wordle = "wordle:main"
+wordle = "wordle.__main__:main"
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.13.0"]

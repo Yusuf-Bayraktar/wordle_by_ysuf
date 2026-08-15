@@ -1,10 +1,3 @@
-from wordle.ui import run_app
+"""Türkçe Wordle projesi."""
 
-
-def main() -> None:
-    """Türkçe Wordle uygulamasını başlatır."""
-    run_app()
-
-
-if __name__ == "__main__":
-    main()
+__version__ = "0.1.0"
