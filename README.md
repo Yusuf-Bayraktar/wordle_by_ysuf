@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# wordle by yusuf
-Benim tarafımdan python kullanılarak yapılmış bir wordle çalışması.
-=======
 # 🟩 Wordle Türkçe
 
 Popüler kelime bulma oyunu Wordle'ın zengin Türkçe sözlük altyapısı ve modern masaüstü arayüzüyle yeniden geliştirilmiş versiyonu.
