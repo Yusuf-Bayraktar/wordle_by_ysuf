@@ -1,6 +1,9 @@
 # 🟩 Wordle Türkçe
 
 ![CI](https://github.com/Yusuf-Bayraktar/wordle_by_ysuf/actions/workflows/ci.yml/badge.svg)
+![Latest Release](https://img.shields.io/github/v/release/Yusuf-Bayraktar/wordle_by_ysuf)
+![License](https://img.shields.io/github/license/Yusuf-Bayraktar/wordle_by_ysuf)
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 
 Popüler kelime bulma oyunu Wordle'ın zengin Türkçe sözlük altyapısı ve modern masaüstü arayüzüyle yeniden geliştirilmiş versiyonu.
 
