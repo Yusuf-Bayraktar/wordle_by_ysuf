@@ -76,4 +76,3 @@ uv run python -m wordle
 ## 📌 Sonuç
 
 Wordle Türkçe; temiz kod prensiplerine uygun, genişletilebilir ve hem klavyeden hem fareyle rahatça oynanabilen keyifli bir masaüstü oyun deneyimi sunar.
->>>>>>> d1cb2a4 (New Update)
